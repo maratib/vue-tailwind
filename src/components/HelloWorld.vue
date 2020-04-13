@@ -1,9 +1,10 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
     <div
       class="bg-purple-800 text-white sm:bg-green md:bg-blue md:text-yellow lg:bg-red xl:bg-orange"
-    >Test</div>
+    >
+      <h1>{{ msg }}</h1>
+    </div>
   </div>
 </template>
 
